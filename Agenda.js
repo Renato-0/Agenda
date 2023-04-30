@@ -1,4 +1,3 @@
-// let lista = localStorage.getItem("minhaLista");
 const formulario = document.querySelector("form");
 const ulpessoas = document.querySelector("ul");
 const storage = window.localStorage
@@ -12,14 +11,6 @@ if (storage.getItem("array") == null){
     }
         
 }
-
-// if(lista){
-//     lista = JSON.parse(lista);
-//     console.log(lista)
-// }else{
-//     lista = [];
-// }
-
 
  listar();
 
